@@ -11,7 +11,7 @@ address = st.selectbox("次の中から現住所を教えてください",["京�
 st.write(address)
 
 st.multiselect("趣味を次から複数選択してください",["映画""音楽""散歩"])
-st.write(hobby)
+st.write(address)
 
 score = st.slider("この映画10点満点で評価してください",0,10,5)
 st.write(score)
