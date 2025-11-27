@@ -22,7 +22,7 @@ list = [
   {"latitude":35.05,"longitude":135.76},
   {"latutude":35.04,"longitude":135.75},
 ]
-st.map(address)
+st.map(list)
 
 camera = st.camera_input("写真を撮影します！")
 if camera:
