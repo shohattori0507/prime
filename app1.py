@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("こんばんは、吉村ゼミ")
+st.title("こんにちは、吉村ゼミ")
 
 name = st.text_input("あああああ")
 st.write(name)
